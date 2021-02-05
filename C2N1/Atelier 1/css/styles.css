@@ -1,0 +1,156 @@
+body{
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+  background-image: url(bg-pattern-top-desktop.svg), url(bg-pattern-bottom-desktop.svg);
+  background-position: top left, bottom right;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.container-fluid{
+  padding: 75px 12% 20px;
+}
+
+/*****REVIEWS*****/
+.reviews-header{
+  font-size: 48px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+}
+
+.reviews-text{
+  color: hsl(303, 10%, 53%);
+  margin: 5% 0;
+}
+
+/*****RAITING*****/
+
+.rating-cards{
+  text-align: right;
+  padding: 0;
+}
+
+.rating{
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 8px;
+  padding: 2%;
+  text-align: center;
+  margin: 2%;
+  width: 80%;
+  display: inline-block;
+  position: relative;
+}
+
+.reviews{
+  right: 60px;
+}
+
+.report-guru{
+right: 30px;
+}
+
+.stars{
+  float: left;
+}
+
+.star{
+  margin: 0 3px;
+  padding: 0;
+}
+
+.rating-text{
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  display: inline-block;
+  margin: 0 auto;
+}
+
+
+
+/*****TESTIMONIALS*****/
+#testimonials{
+  margin: 7% 0;
+}
+
+/* .testimonial-card .card-body{
+  
+} */
+
+.buyer-profile-picture{
+  border-radius: 100%;
+  width: 15%;
+  margin: 3%;
+}
+
+.buyer-name{
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+}
+
+
+.buyer-status{
+  color: hsl(333, 80%, 67%);
+  font-weight: 400;
+}
+
+.buyer-review{
+  color: hsl(0, 0%, 100%);
+}
+
+.testimonial-card{
+  border: none;
+  border-radius: 0.7rem;
+  background-color: hsl(300, 43%, 22%);
+}
+
+.colton{
+  right: 15px;
+  bottom: 25px;
+}
+
+.anne{
+  left: 15px;
+  top: 25px;
+}
+
+
+@media only screen and (max-width: 993px){
+  body{
+    text-align: center;
+    background-image: url(bg-pattern-top-mobile.svg), url(bg-pattern-bottom-mobile.svg);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+  }
+
+
+  .rating{
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 8px;
+    padding: 2%;
+    text-align: center;
+    width: 100%;
+    margin: 2%;
+    display: block;
+    position: static;
+  }
+
+  .rating-text{
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    display: block;
+    margin: 0 auto;
+  }
+  .stars{
+    float: none;
+    margin-bottom: 2%;
+    display: block;
+  }
+
+  .testimonial-card{
+    border: none;
+    border-radius: 0.7rem;
+    background-color: hsl(300, 43%, 22%);
+    display: block;
+    position: static;
+    margin: 3% 0;
+  }
+}
