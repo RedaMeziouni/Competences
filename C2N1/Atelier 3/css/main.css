@@ -184,7 +184,7 @@ span {
 }
 
 /* media part */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 700px) {
     .container {
       display: flex;
       flex-direction: column;
