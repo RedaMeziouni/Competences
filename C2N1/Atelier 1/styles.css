@@ -110,18 +110,6 @@ p {
     font-weight: 500;
 }
 
-footer{
-    display: flex;
-    justify-content: center;
-    padding: 5px 0 10px 0;
-    font-size: 12px;
-    font-weight: 300;
-
-}
-
-footer small a {
-    color: #D3629D;
-}
 
 @media screen and (min-width: 920px) {
     .outer-container {
