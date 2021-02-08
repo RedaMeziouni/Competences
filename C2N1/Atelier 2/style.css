@@ -6,7 +6,7 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: hsl(229, 57%, 11%);
-  background-image: url('./images/bg-desktop.svg');
+  background-image: url('./images/bg-desktop.png');
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: bottom;
@@ -175,7 +175,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('../images/bg-mobile.svg');
+    background-image: url('./images/bg-mobile.png');
     background-position: 0;
     background-size: cover;
   }
