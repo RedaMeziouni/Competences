@@ -1,0 +1,18 @@
+// import font:
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap');
+// Variables : 
+$primary-color: #fff;
+$secondary-color: #000;
+$orange-color: #f13a11;
+$shadow-color: #171819;
+$gray-text: #909090;
+$white-text: #fff;
+$table-font-size: 15px;
+$border-color: #212122;
+$BSC-font: 'Barlow Semi Condensed', sans-serif;
+
+// Body Font
+body {
+    font-family: $BSC-font;
+}
+

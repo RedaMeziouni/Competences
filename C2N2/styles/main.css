@@ -1,1 +1,5 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap");
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
